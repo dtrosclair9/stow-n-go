@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  /* Visible keyboard focus indicator (WCAG 2.4.7 / 2.4.11). Uses the accent as
+     a 2px ring with offset; works on light and dark surfaces. */
+  :focus-visible {
+    outline: 2px solid theme('colors.accent.DEFAULT');
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Skip-to-content link: hidden until keyboard-focused (WCAG 2.4.1). */
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus {
+    @apply not-sr-only fixed top-4 left-4 z-[100] bg-primary text-white font-semibold px-5 py-3 rounded shadow-lg;
+  }
+}
+
+@layer components {
+  /* Red CTA button: white text on brand red (passes 4.5:1). */
+  .btn-accent {
+    @apply bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded transition-colors duration-200 inline-block;
+  }
+
+  /* Dark button for light sections. */
+  .btn-dark {
+    @apply bg-primary hover:bg-primary-light text-white font-semibold px-6 py-3 rounded transition-colors duration-200 inline-block;
+  }
+
+  .btn-outline {
+    @apply border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-6 py-3 rounded transition-colors duration-200 inline-block;
+  }
+
+  /* Outline on light backgrounds. */
+  .btn-outline-dark {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-6 py-3 rounded transition-colors duration-200 inline-block;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-label {
+    @apply text-accent uppercase tracking-widest text-sm font-semibold;
+  }
+}
