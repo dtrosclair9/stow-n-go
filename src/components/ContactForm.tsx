@@ -30,6 +30,13 @@ export default function ContactForm() {
       if (res.ok) {
         setStatus('success')
         form.reset()
+        // Google Ads conversion: fires only on confirmed sends, not button clicks
+        const w = window as typeof window & { gtag?: (...args: unknown[]) => void }
+        if (typeof w.gtag === 'function') {
+          w.gtag('event', 'conversion', {
+            send_to: 'AW-11501071777/9oSwCOC1--wcEKHbkewq',
+          })
+        }
       } else {
         const json = await res.json()
         setErrorMessage(json?.errors?.[0]?.message ?? 'Something went wrong. Please try again.')
