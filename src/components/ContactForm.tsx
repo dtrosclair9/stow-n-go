@@ -4,9 +4,10 @@ import { useState } from 'react'
 
 type FormState = 'idle' | 'loading' | 'success' | 'error'
 
-// TODO(dayne): create the Formspree form (test recipient daynetrosclair@icloud.com,
-// swap to the client email before launch) and replace FORMSPREE_ID.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/FORMSPREE_ID'
+// Jacob's Formspree form; deliveries go to foretcr@gmail.com (free-tier single
+// recipient on his account). Swap recipient in the Formspree dashboard if he ever
+// wants leads at jacob@stowngo.net instead.
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xaeyjbrn'
 
 export default function ContactForm() {
   const [status, setStatus] = useState<FormState>('idle')
