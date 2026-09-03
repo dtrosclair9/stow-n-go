@@ -14,7 +14,7 @@ export default function PrivacyPage() {
     <div className="section-padding">
       <div className="container-wide max-w-3xl">
         <h1 className="text-4xl font-serif font-bold text-primary mb-2">Privacy Policy</h1>
-        <p className="text-gray-500 mb-8">Last updated: September 1, 2026</p>
+        <p className="text-gray-500 mb-8">Last updated: September 2, 2026</p>
 
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
@@ -47,6 +47,7 @@ export default function PrivacyPage() {
             <li><strong>Formspree</strong> processes contact form submissions.</li>
             <li><strong>Vercel</strong> hosts the website and records standard server logs.</li>
             <li><strong>Google Maps</strong> powers the embedded map on our contact page. Loading the map may send technical data (such as your IP address) to Google.</li>
+            <li><strong>Google Ads</strong> measurement (the Google tag) helps us understand whether our advertising works, for example whether a visit came from one of our ads. It may set cookies and send technical data to Google, handled under <a href="https://policies.google.com/privacy" className="text-accent underline">Google&apos;s privacy policy</a>.</li>
           </ul>
           <p>
             Fonts on this site are self-hosted, so viewing pages does not send font
@@ -63,9 +64,12 @@ export default function PrivacyPage() {
 
           <h2 className="text-2xl font-serif font-bold text-primary">Cookies and tracking</h2>
           <p>
-            This site does not use advertising cookies or third-party tracking
-            pixels. The embedded Google map may set its own cookies when it loads,
-            governed by Google’s privacy policy.
+            This site uses the Google tag for advertising measurement, which may set
+            cookies that help attribute visits and inquiries to our ads. The embedded
+            Google map may also set its own cookies when it loads. Both are governed
+            by Google’s privacy policy. We do not use other third-party tracking
+            pixels, and you can limit ad cookies through your browser settings or
+            Google’s ad settings at adssettings.google.com.
           </p>
 
           <h2 className="text-2xl font-serif font-bold text-primary">Keeping and deleting information</h2>

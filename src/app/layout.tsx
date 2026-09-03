@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Barlow_Condensed, Work_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
@@ -68,6 +69,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${workSans.variable} ${barlow.variable}`}>
       <body className="font-sans text-gray-800 antialiased">
+        {/* Google tag (gtag.js) — Google Ads conversion measurement, AW-11501071777 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-11501071777"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11501071777');`}
+        </Script>
         <a href="#main" className="skip-link">Skip to main content</a>
         <Header />
         <main id="main">{children}</main>
