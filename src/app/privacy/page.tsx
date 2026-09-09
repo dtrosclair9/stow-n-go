@@ -48,6 +48,7 @@ export default function PrivacyPage() {
             <li><strong>Vercel</strong> hosts the website and records standard server logs.</li>
             <li><strong>Google Maps</strong> powers the embedded map on our contact page. Loading the map may send technical data (such as your IP address) to Google.</li>
             <li><strong>Google Ads</strong> measurement (the Google tag) helps us understand whether our advertising works, for example whether a visit came from one of our ads. It may set cookies and send technical data to Google, handled under <a href="https://policies.google.com/privacy" className="text-accent underline">Google&apos;s privacy policy</a>.</li>
+            <li><strong>Google Tag Manager</strong> loads the measurement tags described above. It may send technical data such as your IP address and the pages you visit to Google, handled under the same <a href="https://policies.google.com/privacy" className="text-accent underline">Google privacy policy</a>.</li>
           </ul>
           <p>
             Fonts on this site are self-hosted, so viewing pages does not send font
