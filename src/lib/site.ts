@@ -74,7 +74,7 @@ export const SERVICES: ServiceEntry[] = [
     slug: 'portable-office-rental-houma-la',
     navLabel: 'Portable Office Rental',
     cardTitle: 'Portable Office Rental',
-    cardBlurb: 'Air-conditioned 16 ft office units delivered to job sites across the Houma-Thibodaux area. $250 a month.',
+    cardBlurb: 'Air-conditioned 16 ft office units delivered to job sites across the Houma-Thibodaux area. $259 a month.',
   },
   {
     slug: 'self-storage-raceland-la',
@@ -84,13 +84,16 @@ export const SERVICES: ServiceEntry[] = [
   },
 ]
 
-// Unit lineup. Prices confirmed by the owner 2026-09-01. Delivery is $119 in the
+// Unit lineup. Prices raised by the owner 2026-09-11. Delivery is $119 in the
 // core service area; outlying areas are quoted by phone.
+// NOTE: these render as `${unit.price}` — the dollar sign is added in JSX, so a
+// price here is NOT greppable as "$129.99". When prices change, search for the
+// bare number too, and verify against the rendered card, not a $-prefixed grep.
 export const UNITS = [
-  { name: '12 ft Unit', size: "12' x 8' x 7'", price: 114, bestFor: 'A bedroom or two, seasonal gear, small renovations' },
-  { name: '16 ft Unit', size: "16' x 8' x 7'", price: 124, bestFor: 'Most household moves and remodels. Insulated option available' },
-  { name: '20 ft Unit', size: "20' x 8' x 7.5'", price: 134, bestFor: 'Whole-home storage, job site materials, commercial use' },
-  { name: '16 ft Office', size: "16' x 8' x 7.5'", price: 250, bestFor: 'Job site offices. Air conditioned', office: true },
+  { name: '12 ft Unit', size: "12' x 8' x 7'", price: '129.99', bestFor: 'A bedroom or two, seasonal gear, small renovations' },
+  { name: '16 ft Unit', size: "16' x 8' x 7'", price: '144.99', bestFor: 'Most household moves and remodels. Insulated option available' },
+  { name: '20 ft Unit', size: "20' x 8' x 7.5'", price: '164.99', bestFor: 'Whole-home storage, job site materials, commercial use' },
+  { name: '16 ft Office', size: "16' x 8' x 7.5'", price: '259', bestFor: 'Job site offices. Air conditioned', office: true },
 ]
 
 export const DELIVERY_FEE = 119

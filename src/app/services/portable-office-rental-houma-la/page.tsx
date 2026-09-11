@@ -7,11 +7,11 @@ const SLUG = 'portable-office-rental-houma-la'
 export const metadata: Metadata = {
   title: 'Portable Office Rental in Houma, LA',
   description:
-    'Air-conditioned 16 ft portable office units delivered to job sites across Houma, Thibodaux, and the bayou region. $250 a month from a local Raceland company.',
+    'Air-conditioned 16 ft portable office units delivered to job sites across Houma, Thibodaux, and the bayou region. $259 a month from a local Raceland company.',
   alternates: { canonical: `${BASE_URL}/services/${SLUG}` },
   openGraph: {
     title: 'Portable Office Rental in Houma, LA | Stow-N-Go',
-    description: 'Air-conditioned job site offices delivered locally. $250 a month.',
+    description: 'Air-conditioned job site offices delivered locally. $259 a month.',
     url: `${BASE_URL}/services/${SLUG}`,
     images: [ogImage],
   },
@@ -24,7 +24,7 @@ const data: ServicePageData = {
   label: 'Job Site Offices',
   h1: 'Portable Office Rental in Houma, LA',
   intro: [
-    'A job site runs better when the paperwork, the plans, and the superintendent have somewhere cool to work. Stow-N-Go rents air-conditioned 16 ft portable office units and delivers them to sites across Houma, Thibodaux, and the surrounding parishes for $250 a month.',
+    'A job site runs better when the paperwork, the plans, and the superintendent have somewhere cool to work. Stow-N-Go rents air-conditioned 16 ft portable office units and delivers them to sites across Houma, Thibodaux, and the surrounding parishes for $259 a month.',
     'The offices come out of the same Raceland shop as our storage fleet, so questions about setup go to the people who built them.',
   ],
   image: {
@@ -38,7 +38,7 @@ const data: ServicePageData = {
       body: 'South Louisiana summers cook a bare trailer by 9 AM. The office units are air conditioned, so plans, laptops, and people function all day.',
     },
     {
-      title: 'A local $250 flat rate',
+      title: 'A local $259 flat rate',
       body: 'With the national office-trailer companies you usually wait on a callback to learn the price. Ours is a flat monthly number from a company up the road.',
     },
     {
@@ -53,7 +53,7 @@ const data: ServicePageData = {
   includedHeading: 'What the Office Rental Covers',
   includedNote: 'Offices rent by the month for the life of the project, short or long. To talk power hookup and delivery for your site, call',
   included: [
-    'Air-conditioned 16 ft office unit, $250 per month',
+    'Air-conditioned 16 ft office unit, $259 per month',
     'Delivery and placement on your site',
     'A door that locks with your padlock',
     'Steel construction built at our Raceland facility',
@@ -63,7 +63,7 @@ const data: ServicePageData = {
   pricing: {
     heading: 'Office Unit Pricing',
     rows: [
-      { name: '16 ft office', detail: "16' x 8' x 7.5', air conditioned", price: '$250/mo' },
+      { name: '16 ft office', detail: "16' x 8' x 7.5', air conditioned", price: '$259/mo' },
       { name: '20 ft office', detail: 'Larger layout for bigger crews', price: 'Call' },
       { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
       { name: 'Add a storage unit', detail: '12 to 20 ft alongside the office', price: 'From $129.99/mo' },
@@ -82,7 +82,7 @@ const data: ServicePageData = {
   faqs: [
     {
       q: 'How much does a portable office cost to rent?',
-      a: 'Our 16 ft air-conditioned office unit is $250 a month, plus a flat $119 delivery and pickup in our core area. A 20 ft office layout is available; call for its rate.',
+      a: 'Our 16 ft air-conditioned office unit is $259 a month, plus a flat $119 delivery and pickup in our core area. A 20 ft office layout is available; call for its rate.',
     },
     {
       q: 'Is the office really air conditioned?',

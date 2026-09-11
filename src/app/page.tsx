@@ -70,7 +70,7 @@ const schema = {
       telephone: SITE.phoneRaw,
       email: SITE.email,
       image: `${BASE_URL}/images/stow-n-go-logo.png`,
-      priceRange: '$129.99-$250 per month',
+      priceRange: '$129.99-$259 per month',
       foundingDate: '2006',
       address: {
         '@type': 'PostalAddress',
