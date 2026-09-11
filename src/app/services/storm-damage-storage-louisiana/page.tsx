@@ -7,7 +7,7 @@ const SLUG = 'storm-damage-storage-louisiana'
 export const metadata: Metadata = {
   title: 'Storm Damage Storage in South Louisiana',
   description:
-    'Hurricane or storm damage? We deliver a secure storage unit to your driveway so repairs can start. ALE coverage in many Louisiana policies can reimburse storage fees.',
+    'Hurricane or storm damage? We deliver a storage unit to your driveway so repairs can start. ALE coverage in many Louisiana policies can reimburse storage fees.',
   alternates: { canonical: `${BASE_URL}/services/${SLUG}` },
   openGraph: {
     title: 'Storm Damage Storage in South Louisiana | Stow-N-Go',
@@ -63,9 +63,9 @@ const data: ServicePageData = {
   pricing: {
     heading: 'Storm Storage Pricing',
     rows: [
-      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$114/mo' },
-      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$124/mo' },
-      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$134/mo' },
+      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
+      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
+      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
       { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
     ],
     note: 'These are the same rates we charge every other month of the year. Taxes apply.',

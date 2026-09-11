@@ -66,7 +66,7 @@ const data: ServicePageData = {
       { name: '16 ft office', detail: "16' x 8' x 7.5', air conditioned", price: '$250/mo' },
       { name: '20 ft office', detail: 'Larger layout for bigger crews', price: 'Call' },
       { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
-      { name: 'Add a storage unit', detail: '12 to 20 ft alongside the office', price: 'From $114/mo' },
+      { name: 'Add a storage unit', detail: '12 to 20 ft alongside the office', price: 'From $129.99/mo' },
     ],
     note: 'Site needs power for the A/C; the office will walk through hookup details for your location when you book.',
   },

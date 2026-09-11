@@ -44,7 +44,7 @@ export const SERVICES: ServiceEntry[] = [
     slug: 'portable-storage-containers-houma-la',
     navLabel: 'Houma Portable Storage',
     cardTitle: 'Portable Storage Containers in Houma',
-    cardBlurb: 'Ground-level storage units delivered anywhere in Houma and Terrebonne Parish, from $114 a month.',
+    cardBlurb: 'Ground-level storage units delivered anywhere in Houma and Terrebonne Parish, from $129.99 a month.',
   },
   {
     slug: 'portable-storage-containers-thibodaux-la',
@@ -68,7 +68,7 @@ export const SERVICES: ServiceEntry[] = [
     slug: 'storm-damage-storage-louisiana',
     navLabel: 'Storm Damage Storage',
     cardTitle: 'Storm Damage Storage',
-    cardBlurb: 'A secure unit in your driveway while your home gets repaired. ALE insurance coverage can reimburse storage fees; ask your adjuster.',
+    cardBlurb: 'A unit in your driveway while your home gets repaired. ALE insurance coverage can reimburse storage fees; ask your adjuster.',
   },
   {
     slug: 'portable-office-rental-houma-la',

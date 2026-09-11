@@ -7,11 +7,11 @@ const SLUG = 'portable-storage-containers-morgan-city-la'
 export const metadata: Metadata = {
   title: 'Portable Storage Containers in Morgan City, LA',
   description:
-    'Delivered storage containers for Morgan City homes, shipyards, and job sites. Ground-level units from $114 a month. Call (985) 855-6525 for a delivery quote.',
+    'Delivered storage containers for Morgan City homes, shipyards, and job sites. Ground-level units from $129.99 a month. Call (985) 855-6525 for a delivery quote.',
   alternates: { canonical: `${BASE_URL}/services/${SLUG}` },
   openGraph: {
     title: 'Portable Storage Containers in Morgan City, LA | Stow-N-Go',
-    description: 'Ground-level storage units delivered to the Morgan City area from $114 a month.',
+    description: 'Ground-level storage units delivered to the Morgan City area from $129.99 a month.',
     url: `${BASE_URL}/services/${SLUG}`,
     images: [ogImage],
   },
@@ -25,7 +25,7 @@ const data: ServicePageData = {
   h1: 'Portable Storage Containers in Morgan City, LA',
   intro: [
     'Stow-N-Go runs portable storage units west to Morgan City, Berwick, Patterson, and Amelia. The unit rides out on our trailer, lands on your driveway or laydown area, and loads at ground level.',
-    'Morgan City sits at the far edge of our regular routes, so delivery there is quoted by phone for your exact address. The monthly rent is the same as everywhere else we serve, starting at $114.',
+    'Morgan City sits at the far edge of our regular routes, so delivery there is quoted by phone for your exact address. The monthly rent is the same as everywhere else we serve, starting at $129.99.',
   ],
   image: {
     src: '/images/stow-n-go-portable-storage-units-raceland-yard.jpg',
@@ -63,9 +63,9 @@ const data: ServicePageData = {
   pricing: {
     heading: 'Morgan City Area Pricing',
     rows: [
-      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$114/mo' },
-      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$124/mo' },
-      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$134/mo' },
+      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
+      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
+      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
       { name: 'Delivery & pickup', detail: 'Quoted for Morgan City addresses', price: 'Call' },
     ],
     note: 'Monthly rent matches our whole service area. Delivery west of the Atchafalaya depends on your exact address, so the office quotes it in one call. Taxes apply.',

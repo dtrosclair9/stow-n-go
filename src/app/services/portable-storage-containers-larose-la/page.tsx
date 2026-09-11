@@ -7,11 +7,11 @@ const SLUG = 'portable-storage-containers-larose-la'
 export const metadata: Metadata = {
   title: 'Portable Storage in Larose & Cut Off, LA',
   description:
-    'Storage containers delivered down Bayou Lafourche to Larose, Cut Off, Galliano, and Golden Meadow. Units from $114 a month, built in Raceland. (985) 855-6525.',
+    'Storage containers delivered down Bayou Lafourche to Larose, Cut Off, Galliano and Golden Meadow. Units from $129.99/mo, built in Raceland. (985) 855-6525.',
   alternates: { canonical: `${BASE_URL}/services/${SLUG}` },
   openGraph: {
     title: 'Portable Storage in Larose & Cut Off, LA | Stow-N-Go',
-    description: 'Delivered storage units for the bayou communities, from $114 a month.',
+    description: 'Delivered storage units for the bayou communities, from $129.99 a month.',
     url: `${BASE_URL}/services/${SLUG}`,
     images: [ogImage],
   },
@@ -63,9 +63,9 @@ const data: ServicePageData = {
   pricing: {
     heading: 'South Lafourche Pricing',
     rows: [
-      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$114/mo' },
-      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$124/mo' },
-      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$134/mo' },
+      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
+      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
+      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
       { name: 'Delivery & pickup', detail: 'Flat in the core area; Golden Meadow and beyond quoted', price: '$119' },
     ],
     note: 'Rent is the same up and down the bayou. Deliveries past Golden Meadow, including Grand Isle, are quoted by address. Taxes apply.',

@@ -7,11 +7,11 @@ const SLUG = 'self-storage-raceland-la'
 export const metadata: Metadata = {
   title: 'Storage Units in Raceland, LA',
   description:
-    'Storage units from the company based in Raceland. Have a unit delivered to you, or keep your loaded unit at our yard at 105 Double H Dr. From $114 a month.',
+    'Storage units from the company based in Raceland. Have a unit delivered to you, or keep your loaded unit at our yard at 105 Double H Dr. From $129.99 a month.',
   alternates: { canonical: `${BASE_URL}/services/${SLUG}` },
   openGraph: {
     title: 'Storage Units in Raceland, LA | Stow-N-Go',
-    description: 'Delivered storage units and yard storage in Raceland, from $114 a month.',
+    description: 'Delivered storage units and yard storage in Raceland, from $129.99 a month.',
     url: `${BASE_URL}/services/${SLUG}`,
     images: [ogImage],
   },
@@ -25,7 +25,7 @@ const data: ServicePageData = {
   h1: 'Storage Units in Raceland, LA',
   intro: [
     'Stow-N-Go is the storage company that actually lives in Raceland. The units are built here, and the office at 105 Double H Dr answers seven days a week.',
-    'Storage here works two ways. Most people have a unit delivered to their address and keep it there. If a driveway needs to stay clear, we can instead park your loaded unit at our yard for as long as the rental runs. Either way it starts at $114 a month.',
+    'Storage here works two ways. Most people have a unit delivered to their address and keep it there. If a driveway needs to stay clear, we can instead park your loaded unit at our yard for as long as the rental runs. Either way it starts at $129.99 a month.',
   ],
   image: {
     src: '/images/stow-n-go-facility-raceland-la.jpg',
@@ -64,9 +64,9 @@ const data: ServicePageData = {
   pricing: {
     heading: 'Raceland Storage Pricing',
     rows: [
-      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$114/mo' },
-      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$124/mo' },
-      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$134/mo' },
+      { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
+      { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
+      { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
       { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
     ],
     note: 'The monthly rate is the same whether the unit sits at your address or at our yard. Ask the office about yard storage logistics when you book.',
@@ -83,7 +83,7 @@ const data: ServicePageData = {
   faqs: [
     {
       q: 'Does Stow-N-Go have storage units in Raceland?',
-      a: 'Yes, this is our home base. Units rent from $114 a month, delivered to your Raceland address or kept loaded at our yard at 105 Double H Dr.',
+      a: 'Yes, this is our home base. Units rent from $129.99 a month, delivered to your Raceland address or kept loaded at our yard at 105 Double H Dr.',
     },
     {
       q: 'How do I get into my unit if it is stored at your yard?',

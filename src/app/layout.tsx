@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | Stow-N-Go',
   },
   description:
-    'Portable storage units delivered to your driveway or job site across Houma, Thibodaux, Raceland and the bayou region. From $114/mo. Call (985) 855-6525.',
+    'Portable storage units delivered to your driveway or job site across Houma, Thibodaux, Raceland and the bayou region. From $129.99/mo. Call (985) 855-6525.',
   keywords: [
     'portable storage containers Houma LA',
     'portable storage Thibodaux',

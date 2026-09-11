@@ -5,11 +5,11 @@ import { BASE_URL, SITE, SERVICES, UNITS, DELIVERY_FEE, ogImage } from '@/lib/si
 export const metadata: Metadata = {
   title: 'Portable Storage Services & Prices',
   description:
-    'Portable storage containers, office units, and yard storage across Houma, Thibodaux, Raceland and the bayou region. 12 to 20 ft units from $114 a month.',
+    'Portable storage containers, office units, and yard storage across Houma, Thibodaux, Raceland and the bayou region. 12 to 20 ft units from $129.99 a month.',
   alternates: { canonical: `${BASE_URL}/services` },
   openGraph: {
     title: 'Portable Storage Services & Prices | Stow-N-Go',
-    description: 'Delivered storage units from $114 a month across Lafourche, Terrebonne, and Assumption parishes.',
+    description: 'Delivered storage units from $129.99 a month across Lafourche, Terrebonne, and Assumption parishes.',
     url: `${BASE_URL}/services`,
     images: [ogImage],
   },

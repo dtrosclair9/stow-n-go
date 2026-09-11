@@ -6,12 +6,12 @@ import { BASE_URL, SITE, SERVICES, UNITS, DELIVERY_FEE, ogImage } from '@/lib/si
 export const metadata: Metadata = {
   title: 'Stow-N-Go | Portable Storage in Houma & Thibodaux, LA',
   description:
-    'Portable storage units delivered to your driveway or job site across Houma, Thibodaux, Raceland and the bayou region. From $114/mo. Call (985) 855-6525.',
+    'Portable storage units delivered to your driveway or job site across Houma, Thibodaux, Raceland and the bayou region. From $129.99/mo. Call (985) 855-6525.',
   alternates: { canonical: BASE_URL },
   openGraph: {
     title: 'Stow-N-Go | Portable Storage in Houma & Thibodaux, LA',
     description:
-      'Ground-level portable storage delivered across Houma, Thibodaux and Raceland. From $114 a month. Call (985) 855-6525.',
+      'Ground-level portable storage delivered across Houma, Thibodaux and Raceland. From $129.99 a month. Call (985) 855-6525.',
     url: BASE_URL,
     images: [ogImage],
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const homeFaqs = [
   {
     q: 'How much does a portable storage unit cost to rent?',
-    a: 'Rent starts at $114 a month for a 12 ft unit. A 16 ft unit is $124 a month and a 20 ft unit is $134 a month. Delivery and pickup within our core service area is a flat $119. There is no minimum rental term.',
+    a: 'Rent starts at $129.99 a month for a 12 ft unit. A 16 ft unit is $144.99 a month and a 20 ft unit is $164.99 a month. Delivery and pickup within our core service area is a flat $119. There is no minimum rental term.',
   },
   {
     q: 'What sizes do the units come in?',
@@ -70,7 +70,7 @@ const schema = {
       telephone: SITE.phoneRaw,
       email: SITE.email,
       image: `${BASE_URL}/images/stow-n-go-logo.png`,
-      priceRange: '$114-$250 per month',
+      priceRange: '$129.99-$250 per month',
       foundingDate: '2006',
       address: {
         '@type': 'PostalAddress',
@@ -186,7 +186,7 @@ export default function HomePage() {
                 </Link>
               </div>
               <p className="mt-6 text-accent-dark font-bold text-lg font-serif">
-                From $114 a month. No minimum rental term.
+                From $129.99 a month. No minimum rental term.
               </p>
             </div>
             <div className="relative h-72 md:h-96 lg:h-[480px] rounded-xl overflow-hidden shadow-xl">
@@ -213,7 +213,7 @@ export default function HomePage() {
               <p className="text-sm text-gray-300">Built in Raceland</p>
             </div>
             <div>
-              <p className="font-bold text-2xl font-serif text-accent-light">$114/mo</p>
+              <p className="font-bold text-2xl font-serif text-accent-light">$129.99/mo</p>
               <p className="text-sm text-gray-300">Starting price</p>
             </div>
             <div>
