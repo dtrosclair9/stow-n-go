@@ -31,11 +31,17 @@ export default function ContactForm() {
       if (res.ok) {
         setStatus('success')
         form.reset()
-        // Google Ads conversion: fires only on confirmed sends, not button clicks
+        // Fires only on confirmed sends, not button clicks.
         const w = window as typeof window & { gtag?: (...args: unknown[]) => void }
         if (typeof w.gtag === 'function') {
+          // Google Ads conversion
           w.gtag('event', 'conversion', {
             send_to: 'AW-11501071777/9oSwCOC1--wcEKHbkewq',
+          })
+          // GA4 recommended event for a lead form completion
+          w.gtag('event', 'generate_lead', {
+            form_id: 'contact',
+            page_path: window.location.pathname,
           })
         }
       } else {

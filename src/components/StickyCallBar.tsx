@@ -17,6 +17,7 @@ export default function StickyCallBar() {
         </div>
         <a
           href={`tel:${SITE.phoneRaw}`}
+          data-loc="sticky-bar"
           className="btn-accent text-sm !py-3 !px-5 shrink-0"
           aria-label={`Call Stow-N-Go at ${SITE.phoneDisplay}`}
         >

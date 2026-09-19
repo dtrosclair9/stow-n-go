@@ -126,6 +126,7 @@ export default function ContactPage() {
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
                 <a
                   href={`tel:${SITE.phoneRaw}`}
+                  data-loc="hero"
                   className="btn-accent text-base text-center"
                   aria-label={`Call Stow-N-Go at ${SITE.phoneDisplay}`}
                 >
@@ -185,6 +186,8 @@ export default function ContactPage() {
                 </p>
                 <a
                   href={`tel:${SITE.phoneRaw}`}
+                  data-loc="price-card"
+                  data-unit={unit.name}
                   className="btn-accent text-sm text-center mt-5"
                 >
                   Check availability
@@ -259,6 +262,7 @@ export default function ContactPage() {
                 you need an answer today, and the number is{' '}
                 <a
                   href={`tel:${SITE.phoneRaw}`}
+                  data-loc="callback-section"
                   className="text-accent font-semibold hover:underline"
                 >
                   {SITE.phoneDisplay}
@@ -342,7 +346,7 @@ export default function ContactPage() {
                 Give us a call, tell us roughly what you are storing and where it is
                 going, and we will tell you what is available and what it runs.
               </p>
-              <a href={`tel:${SITE.phoneRaw}`} className="btn-accent text-base">
+              <a href={`tel:${SITE.phoneRaw}`} data-loc="closing-cta" className="btn-accent text-base">
                 Call {SITE.phoneDisplay}
               </a>
             </div>

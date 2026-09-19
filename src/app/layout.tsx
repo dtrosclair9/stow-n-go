@@ -87,7 +87,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             title="Google Tag Manager"
           />
         </noscript>
-        {/* Google tag (gtag.js) — Google Ads conversion measurement, AW-11501071777 */}
+        {/* Google tag (gtag.js). One library load, two destinations:
+            AW-11501071777 = Google Ads conversions
+            G-KL7M3PDKCB   = GA4 (behaviour, engagement time, traffic sources) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-11501071777"
           strategy="afterInteractive"
@@ -96,7 +98,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           {`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-11501071777');`}
+            gtag('config', 'AW-11501071777');
+            gtag('config', 'G-KL7M3PDKCB');`}
         </Script>
         <TelClickTracker />
         <a href="#main" className="skip-link">Skip to main content</a>
