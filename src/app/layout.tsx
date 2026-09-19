@@ -4,6 +4,7 @@ import { Barlow_Condensed, Work_Sans } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import TelClickTracker from '@/components/TelClickTracker'
 import { BASE_URL, SITE, ogImage } from '@/lib/site'
 
 const workSans = Work_Sans({
@@ -97,6 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             gtag('js', new Date());
             gtag('config', 'AW-11501071777');`}
         </Script>
+        <TelClickTracker />
         <a href="#main" className="skip-link">Skip to main content</a>
         <Header />
         <main id="main">{children}</main>
