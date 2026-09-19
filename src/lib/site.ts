@@ -139,7 +139,7 @@ export const CONTACT_FAQS = [
   },
   {
     q: 'How soon can you deliver?',
-    a: 'That depends on what is already on the schedule that week. Call and we will tell you what is open right now rather than guess at it here.',
+    a: 'Same day or the next day, depending on how late in the day you call. Call in the morning and there is a good chance it goes out that afternoon. Call late and it is usually the next day. Either way you will know before you hang up.',
   },
   {
     q: 'Do I need a permit to put one in my yard?',

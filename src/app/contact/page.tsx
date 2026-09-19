@@ -7,7 +7,7 @@ import { BASE_URL, SITE, ogImage, UNITS, CONTACT_FAQS } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Rent a Storage Unit | Prices & Sizes',
   description:
-    'Portable storage units delivered in Houma, Thibodaux, Raceland and Morgan City. $129.99 to $164.99 a month plus $119 delivery, no minimum term. Call (985) 855-6525.',
+    'Storage units delivered same day or next day in Houma, Thibodaux and Raceland. From $129.99 a month plus $119 delivery, no minimum term. Call (985) 855-6525.',
   alternates: { canonical: `${BASE_URL}/contact` },
   openGraph: {
     title: 'Rent a Portable Storage Unit | Stow-N-Go',
@@ -117,9 +117,10 @@ export default function ContactPage() {
                 Portable storage delivered to your driveway, from $129.99 a month
               </h1>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                We build the units in Raceland and haul them out across Lafourche,
-                Terrebonne and Assumption. No minimum term, no contract, and the
-                price you see below is the price.
+                Same day or next day, depending on how late you call. We build the
+                units in Raceland and haul them out across Lafourche, Terrebonne and
+                Assumption. No minimum term, no contract, and the price you see below
+                is the price.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
