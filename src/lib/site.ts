@@ -115,7 +115,7 @@ export const CONTACT_FAQS = [
   },
   {
     q: 'Is there a minimum rental period?',
-    a: 'No. It is month to month, with no contract to sign and no term to commit to. When you are done, call and we will schedule a pickup.',
+    a: 'No. It is month to month, with no contract to sign and no term to commit to. When you are done, call and we will schedule a pickup. Worth knowing so it does not catch you out: once a new month starts it is billed whole, so give us a call before the 1st if you want the month you are in to be your last.',
   },
   {
     q: 'What does the $119 delivery fee cover?',
