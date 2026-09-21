@@ -107,7 +107,11 @@ export const DELIVERY_FEE = 119
 export const CONTACT_FAQS = [
   {
     q: 'How much does a portable storage unit cost?',
-    a: 'A 12 ft unit is $129.99 a month, a 16 ft is $144.99, and a 20 ft is $164.99. Delivery is $119 in the core service area, so a 16 ft unit delivered to your place runs $263.99 the first month and $144.99 every month after that.',
+    a: 'A 12 ft unit is $129.99 a month, a 16 ft is $144.99, and a 20 ft is $164.99, plus a one-time $119 delivery in the core service area. Your first month is prorated from the day the unit is delivered, so you are not paying for days before it showed up.',
+  },
+  {
+    q: 'What if the unit gets delivered in the middle of the month?',
+    a: 'Then you only pay for the rest of that month. The first month is prorated from the delivery date, so a unit that lands on the 20th does not cost the same as one that lands on the 1st. Call and we will run the exact number for the day you want it.',
   },
   {
     q: 'Is there a minimum rental period?',

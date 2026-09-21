@@ -197,8 +197,9 @@ export default function ContactPage() {
           </div>
 
           <p className="text-sm text-gray-500 mt-6">
-            A 16 ft unit delivered comes to $263.99 the first month, then $144.99 after
-            that. Outlying addresses like Grand Isle are quoted on the phone.
+            Your first month is prorated from the day it lands, so you only pay for the
+            days you actually have it. After that it is the flat monthly rate. Outlying
+            addresses like Grand Isle are quoted on the phone.
           </p>
         </div>
       </section>
