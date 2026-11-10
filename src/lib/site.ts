@@ -8,7 +8,7 @@ export const SITE = {
   domain: 'www.stowngo.net',
   phoneDisplay: '(985) 855-6525',
   phoneRaw: '+19858556525',
-  email: 'jacob@stowngo.net',
+  email: 'stowngoportable@gmail.com',
   address: {
     street: '105 Double H Dr',
     city: 'Raceland',

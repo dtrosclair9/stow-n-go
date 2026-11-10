@@ -4,10 +4,10 @@ import { useState } from 'react'
 
 type FormState = 'idle' | 'loading' | 'success' | 'error'
 
-// Jacob's Formspree form; deliveries go to foretcr@gmail.com (free-tier single
-// recipient on his account). Swap recipient in the Formspree dashboard if he ever
-// wants leads at jacob@stowngo.net instead.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xaeyjbrn'
+// Stow-N-Go's Formspree form. Deliveries go to stowngoportable@gmail.com, which is
+// also the address shown publicly on the site (SITE.email). Replaced the original
+// form on 2026-11-10 when Jacob moved Stow-N-Go off his personal inbox.
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xyewgwgg'
 
 export default function ContactForm() {
   const [status, setStatus] = useState<FormState>('idle')
