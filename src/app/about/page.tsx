@@ -189,7 +189,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
             The yard sits at {SITE.address.street} in Raceland, which puts most of the
-            bayou region within a short haul. Delivery and pickup runs a flat $119 in
+            bayou region within a short haul. Delivery and pickup runs a flat $129 in
             the core area, and farther spots like Grand Isle can usually be arranged
             for an added fee.
           </p>

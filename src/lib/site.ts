@@ -84,8 +84,9 @@ export const SERVICES: ServiceEntry[] = [
   },
 ]
 
-// Unit lineup. Prices raised by the owner 2026-09-11. Delivery is $119 in the
-// core service area; outlying areas are quoted by phone.
+// Unit lineup. Prices raised by the owner 2026-09-11. Delivery raised 119 -> 129
+// by the owner 2026-11-10. Delivery is $129 in the core service area; outlying
+// areas are quoted by phone.
 // NOTE: these render as `${unit.price}` — the dollar sign is added in JSX, so a
 // price here is NOT greppable as "$129.99". When prices change, search for the
 // bare number too, and verify against the rendered card, not a $-prefixed grep.
@@ -96,7 +97,7 @@ export const UNITS = [
   { name: '16 ft Office', size: "16' x 8' x 7.5'", price: '259', bestFor: 'Job site offices. Air conditioned', office: true },
 ]
 
-export const DELIVERY_FEE = 119
+export const DELIVERY_FEE = 129
 
 // Objection-handling FAQs for /contact, the page Google Ads traffic lands on.
 // Every price here is written as a literal "$129.99" ON PURPOSE so the pre-launch
@@ -107,7 +108,7 @@ export const DELIVERY_FEE = 119
 export const CONTACT_FAQS = [
   {
     q: 'How much does a portable storage unit cost?',
-    a: 'A 12 ft unit is $129.99 a month, a 16 ft is $144.99, and a 20 ft is $164.99, plus a one-time $119 delivery in the core service area. Your first month is prorated from the day the unit is delivered, so you are not paying for days before it showed up.',
+    a: 'A 12 ft unit is $129.99 a month, a 16 ft is $144.99, and a 20 ft is $164.99, plus a one-time $129 delivery in the core service area. Your first month is prorated from the day the unit is delivered, so you are not paying for days before it showed up.',
   },
   {
     q: 'What if the unit gets delivered in the middle of the month?',
@@ -118,7 +119,7 @@ export const CONTACT_FAQS = [
     a: 'No. It is month to month, with no contract to sign and no term to commit to. When you are done, call and we will schedule a pickup. Worth knowing so it does not catch you out: once a new month starts it is billed whole, so give us a call before the 1st if you want the month you are in to be your last.',
   },
   {
-    q: 'What does the $119 delivery fee cover?',
+    q: 'What does the $129 delivery fee cover?',
     a: 'Bringing the unit out to your address and setting it where you want it. We are based in Raceland, so most of Lafourche, Terrebonne, and Assumption Parish is a short run for us. Addresses further out, like Grand Isle, get quoted on the phone.',
   },
   {

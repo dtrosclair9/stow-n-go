@@ -7,12 +7,12 @@ import { BASE_URL, SITE, ogImage, UNITS, CONTACT_FAQS } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Rent a Storage Unit | Prices & Sizes',
   description:
-    'Storage units delivered same day or next day in Houma, Thibodaux and Raceland. From $129.99 a month plus $119 delivery, no minimum term. Call (985) 855-6525.',
+    'Storage units delivered same day or next day in Houma, Thibodaux and Raceland. From $129.99 a month plus $129 delivery, no minimum term. Call (985) 855-6525.',
   alternates: { canonical: `${BASE_URL}/contact` },
   openGraph: {
     title: 'Rent a Portable Storage Unit | Stow-N-Go',
     description:
-      'Delivered to your driveway from $129.99 a month plus $119 delivery. No minimum rental term. Call (985) 855-6525.',
+      'Delivered to your driveway from $129.99 a month plus $129 delivery. No minimum rental term. Call (985) 855-6525.',
     url: `${BASE_URL}/contact`,
     images: [ogImage],
   },
@@ -40,7 +40,7 @@ const STEPS = [
   {
     n: '2',
     h: 'We bring it to you',
-    p: 'The unit gets delivered to your address and set where you want it. $119 in the core service area, quoted by phone further out.',
+    p: 'The unit gets delivered to your address and set where you want it. $129 in the core service area, quoted by phone further out.',
   },
   {
     n: '3',
@@ -164,7 +164,7 @@ export default function ContactPage() {
             Sizes and prices
           </h2>
           <p className="text-gray-600 mb-10 max-w-2xl leading-relaxed">
-            Monthly rates. Delivery is a flat $119 in the core service area, which is
+            Monthly rates. Delivery is a flat $129 in the core service area, which is
             most of what we cover, because we are hauling from Raceland and not from
             a depot two parishes over.
           </p>

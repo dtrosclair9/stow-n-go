@@ -66,7 +66,7 @@ const data: ServicePageData = {
       { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
       { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
       { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
-      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
+      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$129' },
     ],
     note: 'These are the same rates we charge every other month of the year. Taxes apply.',
   },

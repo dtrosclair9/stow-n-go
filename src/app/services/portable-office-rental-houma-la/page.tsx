@@ -65,7 +65,7 @@ const data: ServicePageData = {
     rows: [
       { name: '16 ft office', detail: "16' x 8' x 7.5', air conditioned", price: '$259/mo' },
       { name: '20 ft office', detail: 'Larger layout for bigger crews', price: 'Call' },
-      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
+      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$129' },
       { name: 'Add a storage unit', detail: '12 to 20 ft alongside the office', price: 'From $129.99/mo' },
     ],
     note: 'Site needs power for the A/C; the office will walk through hookup details for your location when you book.',
@@ -82,7 +82,7 @@ const data: ServicePageData = {
   faqs: [
     {
       q: 'How much does a portable office cost to rent?',
-      a: 'Our 16 ft air-conditioned office unit is $259 a month, plus a flat $119 delivery and pickup in our core area. A 20 ft office layout is available; call for its rate.',
+      a: 'Our 16 ft air-conditioned office unit is $259 a month, plus a flat $129 delivery and pickup in our core area. A 20 ft office layout is available; call for its rate.',
     },
     {
       q: 'Is the office really air conditioned?',

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const homeFaqs = [
   {
     q: 'How much does a portable storage unit cost to rent?',
-    a: 'Rent starts at $129.99 a month for a 12 ft unit. A 16 ft unit is $144.99 a month and a 20 ft unit is $164.99 a month. Delivery and pickup within our core service area is a flat $119. There is no minimum rental term.',
+    a: 'Rent starts at $129.99 a month for a 12 ft unit. A 16 ft unit is $144.99 a month and a 20 ft unit is $164.99 a month. Delivery and pickup within our core service area is a flat $129. There is no minimum rental term.',
   },
   {
     q: 'What sizes do the units come in?',

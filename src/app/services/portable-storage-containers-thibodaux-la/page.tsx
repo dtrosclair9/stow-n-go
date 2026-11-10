@@ -66,7 +66,7 @@ const data: ServicePageData = {
       { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
       { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
       { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
-      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
+      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$129' },
     ],
     note: 'Rent runs until we pick the unit up. A 16 ft insulated option is available for storage that needs a buffer from the heat. Taxes apply.',
   },
@@ -82,7 +82,7 @@ const data: ServicePageData = {
   faqs: [
     {
       q: 'How much is a storage container rental in Thibodaux?',
-      a: 'Units run $129.99 to $164.99 a month depending on size, and delivery plus pickup is a flat $119. There is no minimum number of months.',
+      a: 'Units run $129.99 to $164.99 a month depending on size, and delivery plus pickup is a flat $129. There is no minimum number of months.',
     },
     {
       q: 'Do you offer student storage for Nicholls State?',

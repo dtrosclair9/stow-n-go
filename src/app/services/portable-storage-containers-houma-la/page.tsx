@@ -7,7 +7,7 @@ const SLUG = 'portable-storage-containers-houma-la'
 export const metadata: Metadata = {
   title: 'Portable Storage Containers in Houma, LA',
   description:
-    'Ground-level portable storage delivered anywhere in Houma and Terrebonne Parish. 12 to 20 ft units from $129.99 a month, flat $119 delivery. (985) 855-6525.',
+    'Ground-level portable storage delivered anywhere in Houma and Terrebonne Parish. 12 to 20 ft units from $129.99 a month, flat $129 delivery. (985) 855-6525.',
   alternates: { canonical: `${BASE_URL}/services/${SLUG}` },
   openGraph: {
     title: 'Portable Storage Containers in Houma, LA | Stow-N-Go',
@@ -25,7 +25,7 @@ const data: ServicePageData = {
   h1: 'Portable Storage Containers in Houma, LA',
   intro: [
     'Stow-N-Go delivers portable storage containers to driveways, businesses, and job sites all over Houma and Terrebonne Parish. The unit arrives on our trailer, gets set down where you want it, and stays as long as you need it.',
-    'A 16 ft unit runs $144.99 a month with a flat $119 for delivery and pickup. Call around and compare what delivered storage costs in Houma before you book anything, including from us. We put our numbers right here because they hold up.',
+    'A 16 ft unit runs $144.99 a month with a flat $129 for delivery and pickup. Call around and compare what delivered storage costs in Houma before you book anything, including from us. We put our numbers right here because they hold up.',
   ],
   image: {
     src: '/images/portable-storage-unit-delivered-home-raceland-la.jpg',
@@ -68,7 +68,7 @@ const data: ServicePageData = {
       { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
       { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
       { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
-      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$119' },
+      { name: 'Delivery & pickup', detail: 'Flat rate, core area', price: '$129' },
     ],
     note: 'No deposit required and no minimum rental term. Insulated 16 ft units available. Taxes apply.',
   },
@@ -85,7 +85,7 @@ const data: ServicePageData = {
   faqs: [
     {
       q: 'How much does portable storage cost in Houma?',
-      a: 'From Stow-N-Go, $129.99 a month for a 12 ft unit, $144.99 for a 16 ft, and $164.99 for a 20 ft, plus a flat $119 for delivery and pickup.',
+      a: 'From Stow-N-Go, $129.99 a month for a 12 ft unit, $144.99 for a 16 ft, and $164.99 for a 20 ft, plus a flat $129 for delivery and pickup.',
     },
     {
       q: 'Where can the unit sit at my Houma house?',

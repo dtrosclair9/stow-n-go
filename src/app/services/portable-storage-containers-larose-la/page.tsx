@@ -66,7 +66,7 @@ const data: ServicePageData = {
       { name: '12 ft unit', detail: "12' x 8' x 7'", price: '$129.99/mo' },
       { name: '16 ft unit', detail: "16' x 8' x 7'", price: '$144.99/mo' },
       { name: '20 ft unit', detail: "20' x 8' x 7.5'", price: '$164.99/mo' },
-      { name: 'Delivery & pickup', detail: 'Flat in the core area; Golden Meadow and beyond quoted', price: '$119' },
+      { name: 'Delivery & pickup', detail: 'Flat in the core area; Golden Meadow and beyond quoted', price: '$129' },
     ],
     note: 'Rent is the same up and down the bayou. Deliveries past Golden Meadow, including Grand Isle, are quoted by address. Taxes apply.',
   },
@@ -82,7 +82,7 @@ const data: ServicePageData = {
   faqs: [
     {
       q: 'Do you deliver storage units to Larose, Cut Off, and Galliano?',
-      a: 'Yes, those are regular routes for us, along with Lockport, Mathews, and Golden Meadow. Delivery and pickup is a flat $119 in the core area; the farthest addresses down the bayou get a quick quote by phone.',
+      a: 'Yes, those are regular routes for us, along with Lockport, Mathews, and Golden Meadow. Delivery and pickup is a flat $129 in the core area; the farthest addresses down the bayou get a quick quote by phone.',
     },
     {
       q: 'What about Grand Isle?',
